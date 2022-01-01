@@ -2,8 +2,14 @@ import Head from "next/head";
 import Image from "next/image";
 import Login from "../components/login";
 import styles from "../styles/Home.module.css";
+import { useMoralis } from "react-moralis";
 
 export default function Home() {
+const {isAuthenticated} = useMoralis();
+console.log(isAuthenticated.valueOf());
+
+if (!isAuthenticated) {return   <Login />}
+
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +19,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Login />
+      hii
       </main>
 
       <footer className={styles.footer}>
