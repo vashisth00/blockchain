@@ -37,3 +37,7 @@ _This is how I am learning about Web3_
 | DAPPs | | |  |
 | Truffle | | |  |
 
+
+</br>
+
+### Have added more data and info here https://adesignguy.notion.site/ABT-492031511e0a447fbdb09e4599b7557d
